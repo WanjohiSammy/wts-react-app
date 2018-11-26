@@ -89,6 +89,9 @@ class Sendsms extends Component {
     event.preventDefault();
     this.setState({
       progressPercent: 0,
+      success: 0,
+      pending: 0,
+      failed: 0,
       showTextarea: "none",
       showProgress: "block"
     });
